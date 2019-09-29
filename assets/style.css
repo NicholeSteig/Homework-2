@@ -3,6 +3,26 @@
   color:  #4aaaa5;
 }
 
+.name {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 5px;
+  border-bottom-color: #666666;
+ 
+  }
+
+  .headbar {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    padding: 0 120px 0 120px;
+    border-bottom: 5px;
+    border-bottom-color: #666666;
+  }
 html, body {
     height: 100%;
     margin: 0;
@@ -21,15 +41,16 @@ html, body {
   }
 
   .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
 
 .body-card {
 align-content: center;
 }
 
-.links{
-    float: right;
+.footer {
+    text-align: center;
+    padding: 0 0 20px 0;
 }
